@@ -1,0 +1,42 @@
+#countryRow {
+  row-gap: 1rem;
+}
+
+#title {
+  background: #000;
+  color: whitesmoke;
+  height: 3.5rem;
+}
+
+.card-img-top {
+  width: 18rem;
+  align-items: center;
+}
+.card {
+  border: 2px solid #000;
+  background-image: url("https://i.pinimg.com/originals/1a/6d/35/1a6d35135ef76a9efb8d882325cc0747.jpg");
+  color: white;
+}
+.card:hover{
+    box-shadow: 0 0 30px rgb(1, 28, 110);;
+}
+.card-img-top {
+  max-height: 13rem;
+  border: 1px solid black;
+}
+h5 {
+  height: 26px;
+  text-overflow: ellipsis;
+}
+
+.card-text:hover {
+  font-weight: bold;
+}
+h5:hover {
+  font-weight: bolder;
+  background-color: rgb(126, 124, 124);
+}
+button:hover {
+  background-color: rgb(13, 240, 225);
+  box-shadow: 0 0 16px 
+}
